@@ -311,6 +311,7 @@
 
                         map.off('locationfound');
                     }).on('locationerror', function (e) {
+                        alert("Verifica le preferenze di localizzazione");
                         map.off('locationerror');
                     });
                     e.preventDefault();
