@@ -28,6 +28,10 @@
                 <div class="card-body">
                     <div class="lead"></div>
                 </div>
+                <div class="text-right pr-2 pb-2">
+                    <span class="text">{'Read more'|i18n('bootstrapitalia')}</span>
+                    {display_icon('it-arrow-right', 'svg', 'icon')}
+                </div>
             </a>
         </div>
     </div>
