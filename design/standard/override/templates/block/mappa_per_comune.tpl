@@ -28,7 +28,7 @@
                 <div class="card-body">
                     <div class="lead"></div>
                 </div>
-                <div class="text-right pr-2 pb-2">
+                <div class="text-right pr-2 pb-2 moreinfo">
                     <span class="text">{'Read more'|i18n('bootstrapitalia')}</span>
                     {display_icon('it-arrow-right', 'svg', 'icon')}
                 </div>
@@ -199,6 +199,7 @@
                         var template = resultTemplate.clone();
                         var result = $(template.html());
                         result.find('.lead').html(NoResultText);
+                        result.find('.moreinfo').remove();
                         resultContainer.append(result);
                     }
                 })
