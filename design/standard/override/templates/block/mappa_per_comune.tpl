@@ -48,7 +48,6 @@
     'jquery.opendataTools.js'
 ))}
 
-{run-once}
 <style>
     .mappa_comuni.leaflet-container {ldelim}
         background-color:rgba(255,0,0,0.0);
@@ -326,4 +325,3 @@
     });
     {/literal}
 </script>
-{run-once}
